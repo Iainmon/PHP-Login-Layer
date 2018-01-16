@@ -1,0 +1,20 @@
+<?xml version='1.0' standalone='yes'?>
+<user>
+    <username>iainmoncrief</username>
+    <password>password</password>
+    <firstname>Iain</firstname>
+    <lastname>Moncrief</lastname>
+    <email></email>
+    <datecreated></datecreated>
+    <profile>
+        <pic></pic>
+    </profile>
+    <data></data>
+    <lastlogin>
+        <minute></minute>
+        <hour></hour>
+        <day></day>
+        <month></month>
+        <year></year>
+    </lastlogin>
+</user>

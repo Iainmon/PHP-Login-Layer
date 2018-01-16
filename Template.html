@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="../../../../Servers/HTML/Nexal%20Mobile%20Local/site.webmanifest">
+        <link rel="apple-touch-icon" href="../../../../Servers/HTML/Nexal%20Mobile%20Local/icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../../../../Servers/HTML/Nexal%20Mobile%20Local/css/normalize.css">
+        <link rel="stylesheet" href="../../../../Servers/HTML/Nexal%20Mobile%20Local/css/main.css">
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+
+
+        <div id="debug"></div>
+        <div id="web-app">
+            <div class="centered">
+                <input style="width: 35px; height: 35px;" onclick="window.location.href = 'https://www.example.com';" type="image" src="https://dev.nexal.net/110964-basic-application/png/arrowhead-thin-outline-to-the-left.png" />
+                <div align="center" id="body">
+                    <h1>Hawaii's Weather</h1>
+                    <img src="hawaii.svg" title="Geeze, click a town already.">
+                    <h1>Please choose an option.</h1>
+                    <button type="button" class="btn btn-success" onclick="getLocation();">Find My Loation</button>
+                    <div>
+                        <h4>----Or----</h4>
+                        <input type="text" class="form-control" id="otherPlace" placeholder="Search for a different location..." name="otherPlace" value="">
+                        <br>
+                        <input type="button" id="findButton" value="Find" class="btn btn-info" onclick="otherPlace();">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="no-wifi">
+            <div class="centered">
+                <div align="center">
+                    <h1>No Connection!</h1>
+                    <img style="width: 256px; height: 256px;" src="../../../../Servers/HTML/Nexal%20Mobile%20Local/img/error.png">
+                    <h2>It's not your fault, just try checking your connection...</h2>
+                        <input type="button" value="Try Again" class="btn btn-info" onclick="location.reload();">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <script src="../../../../Servers/HTML/Nexal%20Mobile%20Local/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../../../Servers/HTML/Nexal%20Mobile%20Local/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="../../../../Servers/HTML/Nexal%20Mobile%20Local/js/plugins.js"></script>
+        <script src="../../../../Servers/HTML/Nexal%20Mobile%20Local/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
